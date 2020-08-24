@@ -17,11 +17,7 @@
             <ul class="flex-row">
                 <li><a href="/">Home</a></li>
                 <li><a href="/dashboard">Dashboard</a></li>
-                {{!-- {{#if loggedIn}} --}}
                 <li><button id="logout" class="logout-link">Logout</button></li>
-                {{!-- {{else}} --}}
-                {{!-- <li><a href="/login">Login</a></li> --}}
-                {{!-- {{/if}} --}}
             </ul>
         </nav>
         <h1 class="app-title">Your Dashboard</h1>
@@ -32,9 +28,7 @@
     <div class="flex-row justify-center">
         <a href="/dashboard/new" class="btn-custom"><i class="fas fa-plus mr-2 text-light-dark"></i>New Post</a> </div>
     <footer class="text-center mt-3 flex-shrink-0"> &copy;2020</footer>
-    {{#if loggedIn}}
     <script src="/javascript/logout.js"></script>
-    {{/if}}
 </body>
 
 </html>
